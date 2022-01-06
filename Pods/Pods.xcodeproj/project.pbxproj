@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BB2DC3992E0826A7C4A0046AAA4EE10 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 976A46DB1EEE378D0B90D13D29ED88BE /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5536AE92B65FFB40C96EAAD8F727B91A /* Pods-BlockGeminiTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B97CF9169D3639B81CBCFD497CABC1F /* Pods-BlockGeminiTask-dummy.m */; };
+		5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		62FE8E5A93898462E55822907F0DE561 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5E41D0323800AF496C90DA7AFF7E14 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		6C2957D3434AADCE7104B635AC31B2B0 /* Pods-BlockGeminiTaskTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 264DC6ED430E873E9C4E780A7EA77CA2 /* Pods-BlockGeminiTaskTests-dummy.m */; };
+		85B0F588923637D0240D6DD3D6DEAFB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 457CADA1BD85F608FD0C6BFA4F0AACDF /* SkyFloatingLabelTextField-dummy.m */; };
+		96729A7FEBCA10FFB8B9E9FC8AE9B912 /* Pods-BlockGeminiTaskTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D92D86D6CD3C05EB5220CF897C429CDC /* Pods-BlockGeminiTaskTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1396B3CBC83D44AF2D2EA8ED0D1CE28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C21827D9AC07A0C6EF06010B358D1982 /* Pods-BlockGeminiTask-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41955D7F550A2A1F4888AD1B2DEBC665 /* Pods-BlockGeminiTask-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0365ABDB48B70EC559E5AC305E87F8B /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12F89FCD5EB509D050E6F73BEF000167 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-dummy.m */; };
+		E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7A91700ABBA0BFF7FCEB5077CB987 /* UITextField+fixCaretPosition.swift */; };
+		EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B7006994319654F1B2BE2A36497AEC9 /* SkyFloatingLabelTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B5135DE816FF15062A92FFCDA3951 /* SkyFloatingLabelTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F6AEC539621328166EFE7B76BE0EECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		9D5289FC582C47165A8C61A0CDB6C7A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBAF98039AB4BA7927B611FB65B61BC;
+			remoteInfo = SkyFloatingLabelTextField;
+		};
+		CE7D659AD6406F76D46B458BA64F1760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1660F77B62A0CA01BB6AE76CD12EFA39;
+			remoteInfo = "Pods-BlockGeminiTask";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0016A5BED8EA09F036BBA3A61C09D6C6 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04E22ECE7BCA88DAAB873846CFBCD5D4 /* Pods-BlockGeminiTaskTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlockGeminiTaskTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B7006994319654F1B2BE2A36497AEC9 /* SkyFloatingLabelTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-umbrella.h"; sourceTree = "<group>"; };
+		0B97CF9169D3639B81CBCFD497CABC1F /* Pods-BlockGeminiTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlockGeminiTask-dummy.m"; sourceTree = "<group>"; };
+		12F89FCD5EB509D050E6F73BEF000167 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests-dummy.m"; sourceTree = "<group>"; };
+		19E0A9E94D9A1A50E735719B189DE07F /* Pods-BlockGeminiTask-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockGeminiTask-Info.plist"; sourceTree = "<group>"; };
+		264DC6ED430E873E9C4E780A7EA77CA2 /* Pods-BlockGeminiTaskTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BlockGeminiTaskTests-dummy.m"; sourceTree = "<group>"; };
+		2C6A01652C3E31AC39CAB2238844F146 /* SkyFloatingLabelTextField-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyFloatingLabelTextField-Info.plist"; sourceTree = "<group>"; };
+		2EA52B8E0FF443470DC2F947F1CF59C6 /* SkyFloatingLabelTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyFloatingLabelTextField.modulemap; sourceTree = "<group>"; };
+		3AD68CA0ABCFDE513CA30FA09420A3A7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C5E41D0323800AF496C90DA7AFF7E14 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = Sources/SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		417B5135DE816FF15062A92FFCDA3951 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = Sources/SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
+		41955D7F550A2A1F4888AD1B2DEBC665 /* Pods-BlockGeminiTask-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlockGeminiTask-umbrella.h"; sourceTree = "<group>"; };
+		4330792642CF7513EE912FDA623AF2F7 /* SkyFloatingLabelTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyFloatingLabelTextField-prefix.pch"; sourceTree = "<group>"; };
+		457CADA1BD85F608FD0C6BFA4F0AACDF /* SkyFloatingLabelTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyFloatingLabelTextField-dummy.m"; sourceTree = "<group>"; };
+		67B4E097A755CC8068AE5342EA6FFA0E /* Pods-BlockGeminiTask */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BlockGeminiTask"; path = Pods_BlockGeminiTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BF52B4898258517DEF5A0A88574E56 /* SkyFloatingLabelTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.release.xcconfig; sourceTree = "<group>"; };
+		72D338B1C66E1AFDEA6DB32A96BAB291 /* Pods-BlockGeminiTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockGeminiTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		88B7A91700ABBA0BFF7FCEB5077CB987 /* UITextField+fixCaretPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITextField+fixCaretPosition.swift"; path = "Sources/UITextField+fixCaretPosition.swift"; sourceTree = "<group>"; };
+		8C719D278B58B38574C26E7C42D3C286 /* SkyFloatingLabelTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyFloatingLabelTextField.debug.xcconfig; sourceTree = "<group>"; };
+		92645906982234B0B4AAB048FE0052B7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests"; path = Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		939B974D30F24ECF50829CF4A3F82F90 /* Pods-BlockGeminiTaskTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlockGeminiTaskTests.modulemap"; sourceTree = "<group>"; };
+		976A46DB1EEE378D0B90D13D29ED88BE /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h"; sourceTree = "<group>"; };
+		99D0CDEF2CFB7B6552A3AB25724DC505 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DDF613708883DCDE62F10ACC0D6865 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests-Info.plist"; sourceTree = "<group>"; };
+		A5B06C8864573EF5BE221E6935055EB2 /* Pods-BlockGeminiTaskTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockGeminiTaskTests-Info.plist"; sourceTree = "<group>"; };
+		B23767386B8F88E44C66F26D193540D5 /* Pods-BlockGeminiTaskTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BlockGeminiTaskTests"; path = Pods_BlockGeminiTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58450815CF4AE81E6CCECC214D5FE5B /* Pods-BlockGeminiTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockGeminiTask.debug.xcconfig"; sourceTree = "<group>"; };
+		C023FFD58E2FCF7DBAF6427367A3D1A5 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.modulemap"; sourceTree = "<group>"; };
+		C2186E713540BA073976F125BE871FEC /* Pods-BlockGeminiTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockGeminiTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C98C7EE5DF02FE5C85E17195E84F65B0 /* Pods-BlockGeminiTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockGeminiTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		CCABE40C6EC568390CA03595467BF9B8 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CFC7F1DD618740B9494306C05C5BC1E8 /* Pods-BlockGeminiTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BlockGeminiTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyFloatingLabelTextField; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FD7E78BD9D01DDB342202477198BCD /* Pods-BlockGeminiTask.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BlockGeminiTask.modulemap"; sourceTree = "<group>"; };
+		D92D86D6CD3C05EB5220CF897C429CDC /* Pods-BlockGeminiTaskTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BlockGeminiTaskTests-umbrella.h"; sourceTree = "<group>"; };
+		E2FA16E60F62B80EEE63BFB3680F792E /* Pods-BlockGeminiTaskTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BlockGeminiTaskTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F18BA0B84EE0C8BE15666261C266184F /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F321036025819F2756B30E6C29CF66FE /* Pods-BlockGeminiTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BlockGeminiTask.release.xcconfig"; sourceTree = "<group>"; };
+		FC85F1E6EC8C202823D9BE687B29D0DA /* Pods-BlockGeminiTask-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BlockGeminiTask-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD111213A4B2AB1E4BF5A5B650F6FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FE8E5A93898462E55822907F0DE561 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71645FC67C3BFE7ECB048C7D3B7A0BED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1396B3CBC83D44AF2D2EA8ED0D1CE28 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86871BDDD249528A0B9214DCAC5819AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B0F588923637D0240D6DD3D6DEAFB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF5005394286424D09C497637250A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46FE96A8E167ECCE7C33C92A390A21A6 /* Pods-BlockGeminiTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				939B974D30F24ECF50829CF4A3F82F90 /* Pods-BlockGeminiTaskTests.modulemap */,
+				04E22ECE7BCA88DAAB873846CFBCD5D4 /* Pods-BlockGeminiTaskTests-acknowledgements.markdown */,
+				E2FA16E60F62B80EEE63BFB3680F792E /* Pods-BlockGeminiTaskTests-acknowledgements.plist */,
+				264DC6ED430E873E9C4E780A7EA77CA2 /* Pods-BlockGeminiTaskTests-dummy.m */,
+				A5B06C8864573EF5BE221E6935055EB2 /* Pods-BlockGeminiTaskTests-Info.plist */,
+				D92D86D6CD3C05EB5220CF897C429CDC /* Pods-BlockGeminiTaskTests-umbrella.h */,
+				C2186E713540BA073976F125BE871FEC /* Pods-BlockGeminiTaskTests.debug.xcconfig */,
+				C98C7EE5DF02FE5C85E17195E84F65B0 /* Pods-BlockGeminiTaskTests.release.xcconfig */,
+			);
+			name = "Pods-BlockGeminiTaskTests";
+			path = "Target Support Files/Pods-BlockGeminiTaskTests";
+			sourceTree = "<group>";
+		};
+		4B5B28EADCDFA01D242EDB164DBA4D61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7051AB8797CF325C5FF4DA40C6334D5 /* SkyFloatingLabelTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		88D761A81B84AD60F81B2E26D042EBA7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C023FFD58E2FCF7DBAF6427367A3D1A5 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.modulemap */,
+				0016A5BED8EA09F036BBA3A61C09D6C6 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-acknowledgements.markdown */,
+				3AD68CA0ABCFDE513CA30FA09420A3A7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-acknowledgements.plist */,
+				12F89FCD5EB509D050E6F73BEF000167 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-dummy.m */,
+				CCABE40C6EC568390CA03595467BF9B8 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks.sh */,
+				A4DDF613708883DCDE62F10ACC0D6865 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-Info.plist */,
+				976A46DB1EEE378D0B90D13D29ED88BE /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h */,
+				99D0CDEF2CFB7B6552A3AB25724DC505 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */,
+				F18BA0B84EE0C8BE15666261C266184F /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */,
+			);
+			name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests";
+			path = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests";
+			sourceTree = "<group>";
+		};
+		8F6970F76DFC1F60896067DC38C87306 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB0C1BC9848984F8ADFC408B7680C477 /* Pods-BlockGeminiTask */,
+				88D761A81B84AD60F81B2E26D042EBA7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */,
+				46FE96A8E167ECCE7C33C92A390A21A6 /* Pods-BlockGeminiTaskTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CAC2B74D5F6283EC55C943400DC50F66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67B4E097A755CC8068AE5342EA6FFA0E /* Pods-BlockGeminiTask */,
+				92645906982234B0B4AAB048FE0052B7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */,
+				B23767386B8F88E44C66F26D193540D5 /* Pods-BlockGeminiTaskTests */,
+				D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4B5B28EADCDFA01D242EDB164DBA4D61 /* Pods */,
+				CAC2B74D5F6283EC55C943400DC50F66 /* Products */,
+				8F6970F76DFC1F60896067DC38C87306 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8B982ECC789764ECE911BDEDA82EB48 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EA52B8E0FF443470DC2F947F1CF59C6 /* SkyFloatingLabelTextField.modulemap */,
+				457CADA1BD85F608FD0C6BFA4F0AACDF /* SkyFloatingLabelTextField-dummy.m */,
+				2C6A01652C3E31AC39CAB2238844F146 /* SkyFloatingLabelTextField-Info.plist */,
+				4330792642CF7513EE912FDA623AF2F7 /* SkyFloatingLabelTextField-prefix.pch */,
+				0B7006994319654F1B2BE2A36497AEC9 /* SkyFloatingLabelTextField-umbrella.h */,
+				8C719D278B58B38574C26E7C42D3C286 /* SkyFloatingLabelTextField.debug.xcconfig */,
+				72BF52B4898258517DEF5A0A88574E56 /* SkyFloatingLabelTextField.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SkyFloatingLabelTextField";
+			sourceTree = "<group>";
+		};
+		EB0C1BC9848984F8ADFC408B7680C477 /* Pods-BlockGeminiTask */ = {
+			isa = PBXGroup;
+			children = (
+				D6FD7E78BD9D01DDB342202477198BCD /* Pods-BlockGeminiTask.modulemap */,
+				CFC7F1DD618740B9494306C05C5BC1E8 /* Pods-BlockGeminiTask-acknowledgements.markdown */,
+				72D338B1C66E1AFDEA6DB32A96BAB291 /* Pods-BlockGeminiTask-acknowledgements.plist */,
+				0B97CF9169D3639B81CBCFD497CABC1F /* Pods-BlockGeminiTask-dummy.m */,
+				FC85F1E6EC8C202823D9BE687B29D0DA /* Pods-BlockGeminiTask-frameworks.sh */,
+				19E0A9E94D9A1A50E735719B189DE07F /* Pods-BlockGeminiTask-Info.plist */,
+				41955D7F550A2A1F4888AD1B2DEBC665 /* Pods-BlockGeminiTask-umbrella.h */,
+				B58450815CF4AE81E6CCECC214D5FE5B /* Pods-BlockGeminiTask.debug.xcconfig */,
+				F321036025819F2756B30E6C29CF66FE /* Pods-BlockGeminiTask.release.xcconfig */,
+			);
+			name = "Pods-BlockGeminiTask";
+			path = "Target Support Files/Pods-BlockGeminiTask";
+			sourceTree = "<group>";
+		};
+		F7051AB8797CF325C5FF4DA40C6334D5 /* SkyFloatingLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				417B5135DE816FF15062A92FFCDA3951 /* SkyFloatingLabelTextField.swift */,
+				3C5E41D0323800AF496C90DA7AFF7E14 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				88B7A91700ABBA0BFF7FCEB5077CB987 /* UITextField+fixCaretPosition.swift */,
+				D8B982ECC789764ECE911BDEDA82EB48 /* Support Files */,
+			);
+			name = SkyFloatingLabelTextField;
+			path = SkyFloatingLabelTextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41A9B339E633D3DC2476372113BCEFDE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BB2DC3992E0826A7C4A0046AAA4EE10 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0C96C5EDEA1256E3D515B772D897D55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5246CB6C26D6680D741F077F20F0DE /* SkyFloatingLabelTextField-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4BB968F00EB69B694847945B491CB68 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C21827D9AC07A0C6EF06010B358D1982 /* Pods-BlockGeminiTask-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF95A0DDE7C23C1DA1FEDE889DC9E793 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96729A7FEBCA10FFB8B9E9FC8AE9B912 /* Pods-BlockGeminiTaskTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1660F77B62A0CA01BB6AE76CD12EFA39 /* Pods-BlockGeminiTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F907A8E6E86C3C1D7FAD2B474E6E8BDF /* Build configuration list for PBXNativeTarget "Pods-BlockGeminiTask" */;
+			buildPhases = (
+				B4BB968F00EB69B694847945B491CB68 /* Headers */,
+				403799938176814CBFCEE0C692844A72 /* Sources */,
+				4DD111213A4B2AB1E4BF5A5B650F6FC1 /* Frameworks */,
+				6C907675214E335B9B9D370B9E6E4DC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BA23386AFC4929DF53D98193A561B87 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlockGeminiTask";
+			productName = Pods_BlockGeminiTask;
+			productReference = 67B4E097A755CC8068AE5342EA6FFA0E /* Pods-BlockGeminiTask */;
+			productType = "com.apple.product-type.framework";
+		};
+		DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */;
+			buildPhases = (
+				B0C96C5EDEA1256E3D515B772D897D55 /* Headers */,
+				404C51FACE5CFAC8FFF4FDC8C2AF9B6C /* Sources */,
+				DDEEE33742FB47163BAE4F8483F14BF2 /* Frameworks */,
+				BB72A33DD8F816B8303665F0BDA97B68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyFloatingLabelTextField;
+			productName = SkyFloatingLabelTextField;
+			productReference = D392C11EB32EACD5EC9C8D37B51482B6 /* SkyFloatingLabelTextField */;
+			productType = "com.apple.product-type.framework";
+		};
+		F10C45A9E135E181F3BD77E2DBF14E21 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DF8D476A21191E79DF27BF97BA37E26 /* Build configuration list for PBXNativeTarget "Pods-BlockGeminiTask-BlockGeminiTaskUITests" */;
+			buildPhases = (
+				41A9B339E633D3DC2476372113BCEFDE /* Headers */,
+				843915659A6BBC311931C3C40A643DB2 /* Sources */,
+				71645FC67C3BFE7ECB048C7D3B7A0BED /* Frameworks */,
+				59ED44B86828C08145364DF19091D137 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010EE3C3F3D02C774500B469EBE0BBFD /* PBXTargetDependency */,
+			);
+			name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests";
+			productName = Pods_BlockGeminiTask_BlockGeminiTaskUITests;
+			productReference = 92645906982234B0B4AAB048FE0052B7 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5939ECEE1BA4C595B6F7A9AA0710DD1 /* Pods-BlockGeminiTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D603A02C0813C4F812D4AB06337C9E67 /* Build configuration list for PBXNativeTarget "Pods-BlockGeminiTaskTests" */;
+			buildPhases = (
+				BF95A0DDE7C23C1DA1FEDE889DC9E793 /* Headers */,
+				99977D8B8D46336F78484BD47AF211FC /* Sources */,
+				86871BDDD249528A0B9214DCAC5819AC /* Frameworks */,
+				8FD396706A9A3DE5B1F729859EE35FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDC960871AF840C946A85BE8E6B74335 /* PBXTargetDependency */,
+			);
+			name = "Pods-BlockGeminiTaskTests";
+			productName = Pods_BlockGeminiTaskTests;
+			productReference = B23767386B8F88E44C66F26D193540D5 /* Pods-BlockGeminiTaskTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CAC2B74D5F6283EC55C943400DC50F66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1660F77B62A0CA01BB6AE76CD12EFA39 /* Pods-BlockGeminiTask */,
+				F10C45A9E135E181F3BD77E2DBF14E21 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests */,
+				F5939ECEE1BA4C595B6F7A9AA0710DD1 /* Pods-BlockGeminiTaskTests */,
+				DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59ED44B86828C08145364DF19091D137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C907675214E335B9B9D370B9E6E4DC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FD396706A9A3DE5B1F729859EE35FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB72A33DD8F816B8303665F0BDA97B68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403799938176814CBFCEE0C692844A72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5536AE92B65FFB40C96EAAD8F727B91A /* Pods-BlockGeminiTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		404C51FACE5CFAC8FFF4FDC8C2AF9B6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF188EC048AF7BB0EC67B7E36A84F36A /* SkyFloatingLabelTextField.swift in Sources */,
+				878035B27CC6F4ADFB8E5393164F0002 /* SkyFloatingLabelTextField-dummy.m in Sources */,
+				69C454BB3248AF5B39142B95250D1C6A /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
+				E2ABE924B2D77383C50E0BAD47F1A2CE /* UITextField+fixCaretPosition.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843915659A6BBC311931C3C40A643DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0365ABDB48B70EC559E5AC305E87F8B /* Pods-BlockGeminiTask-BlockGeminiTaskUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99977D8B8D46336F78484BD47AF211FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2957D3434AADCE7104B635AC31B2B0 /* Pods-BlockGeminiTaskTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010EE3C3F3D02C774500B469EBE0BBFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 2F6AEC539621328166EFE7B76BE0EECE /* PBXContainerItemProxy */;
+		};
+		0BA23386AFC4929DF53D98193A561B87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SkyFloatingLabelTextField;
+			target = DFBAF98039AB4BA7927B611FB65B61BC /* SkyFloatingLabelTextField */;
+			targetProxy = 9D5289FC582C47165A8C61A0CDB6C7A9 /* PBXContainerItemProxy */;
+		};
+		BDC960871AF840C946A85BE8E6B74335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BlockGeminiTask";
+			target = 1660F77B62A0CA01BB6AE76CD12EFA39 /* Pods-BlockGeminiTask */;
+			targetProxy = CE7D659AD6406F76D46B458BA64F1760 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C2B5BF6EB838EC1EF4A7A2CC9CF0D0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99D0CDEF2CFB7B6552A3AB25724DC505 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4ABAC8B18786E1CA65B21B63FCC0F338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F321036025819F2756B30E6C29CF66FE /* Pods-BlockGeminiTask.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		670828A73C7AD975E3CC42769C94B234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C98C7EE5DF02FE5C85E17195E84F65B0 /* Pods-BlockGeminiTaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74A6FA3D5CE9DC0EE2BB191BB0654E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18BA0B84EE0C8BE15666261C266184F /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9422C147501C92A6E686ED8C15F69AFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C719D278B58B38574C26E7C42D3C286 /* SkyFloatingLabelTextField.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE227146041AB948F32813D3895A4510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58450815CF4AE81E6CCECC214D5FE5B /* Pods-BlockGeminiTask.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D5E92FF12DCFC2432F2F5AC8234ACBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2186E713540BA073976F125BE871FEC /* Pods-BlockGeminiTaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E29A9A22B7AA0AADA5C18466690773E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72BF52B4898258517DEF5A0A88574E56 /* SkyFloatingLabelTextField.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField.modulemap";
+				PRODUCT_MODULE_NAME = SkyFloatingLabelTextField;
+				PRODUCT_NAME = SkyFloatingLabelTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DF8D476A21191E79DF27BF97BA37E26 /* Build configuration list for PBXNativeTarget "Pods-BlockGeminiTask-BlockGeminiTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2B5BF6EB838EC1EF4A7A2CC9CF0D0A /* Debug */,
+				74A6FA3D5CE9DC0EE2BB191BB0654E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33CF291238FED53E179F23B383C4853 /* Build configuration list for PBXNativeTarget "SkyFloatingLabelTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9422C147501C92A6E686ED8C15F69AFC /* Debug */,
+				E29A9A22B7AA0AADA5C18466690773E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D603A02C0813C4F812D4AB06337C9E67 /* Build configuration list for PBXNativeTarget "Pods-BlockGeminiTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E92FF12DCFC2432F2F5AC8234ACBCB /* Debug */,
+				670828A73C7AD975E3CC42769C94B234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F907A8E6E86C3C1D7FAD2B474E6E8BDF /* Build configuration list for PBXNativeTarget "Pods-BlockGeminiTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE227146041AB948F32813D3895A4510 /* Debug */,
+				4ABAC8B18786E1CA65B21B63FCC0F338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_BlockGeminiTask {
+  umbrella header "Pods-BlockGeminiTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
