@@ -29,7 +29,7 @@ extension Bluring where Self: UIView {
     func removeBlur() {
         for view in self.subviews {
             if view is UIVisualEffectView {
-                UIView.animate(withDuration: 0.5, delay: 0.2) {
+                UIView.animate(withDuration: 0.5, delay: 0.5) {
                     view.alpha = 0
                 }
             }

@@ -124,9 +124,21 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQA-x3-7xw">
+                                                        <rect key="frame" x="404" y="17.5" width="20" height="20"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="20" id="Pum-Bl-JyG"/>
+                                                            <constraint firstAttribute="height" constant="20" id="Yww-R3-o6O"/>
+                                                        </constraints>
+                                                        <imageReference key="image" image="eye icon" symbolScale="large"/>
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="black"/>
+                                                    </imageView>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.20000000000000001" green="0.2470588235" blue="0.41960784309999999" alpha="0.39000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
+                                                    <constraint firstItem="iQA-x3-7xw" firstAttribute="centerY" secondItem="Uad-kK-OBY" secondAttribute="centerY" id="5KR-fw-Ggr"/>
+                                                    <constraint firstAttribute="trailing" secondItem="iQA-x3-7xw" secondAttribute="trailing" constant="16" id="U8M-vH-hCi"/>
                                                     <constraint firstAttribute="height" constant="55" id="k4f-7c-rrN"/>
                                                 </constraints>
                                             </view>
@@ -166,6 +178,7 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="4V0-Cj-vhk"/>
                                                 </constraints>
+                                                <color key="tintColor" red="0.0" green="0.14465567479999999" blue="0.35294117650000001" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="Log in">
                                                     <fontDescription key="titleFontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="16"/>
@@ -247,6 +260,7 @@
                     <connections>
                         <outlet property="backgroundImageView" destination="WzB-LD-xYY" id="jeN-qv-qIF"/>
                         <outlet property="emailTextField" destination="b7h-et-BSt" id="duL-yl-BzE"/>
+                        <outlet property="eyePassword" destination="iQA-x3-7xw" id="Z91-XM-RE4"/>
                         <outlet property="loginButton" destination="A4y-Aj-dAS" id="0SA-Zd-FRI"/>
                         <outlet property="loginPopoupView" destination="1dz-uD-h6i" id="5jI-MN-365"/>
                         <outlet property="passwordTextField" destination="ZWa-BD-zIg" id="djO-Ox-BC5"/>
@@ -255,7 +269,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="503" y="86"/>
+            <point key="canvasLocation" x="502.92825768667637" y="85.546875"/>
         </scene>
         <!--Lobby View Controller-->
         <scene sceneID="SQB-wN-6Gs">
@@ -351,16 +365,17 @@
     </scenes>
     <designables>
         <designable name="ZWa-BD-zIg">
-            <size key="intrinsicContentSize" width="408" height="36.513671875"/>
+            <size key="intrinsicContentSize" width="68.5" height="14"/>
         </designable>
         <designable name="b7h-et-BSt">
-            <size key="intrinsicContentSize" width="408" height="36.513671875"/>
+            <size key="intrinsicContentSize" width="40" height="15.5"/>
         </designable>
     </designables>
     <resources>
         <image name="Background" width="1437.5" height="896"/>
         <image name="LobbyBackground" width="2875" height="1792"/>
         <image name="Logo" width="175" height="45"/>
+        <image name="eye icon" width="16" height="14"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
         <systemColor name="systemBackgroundColor">
