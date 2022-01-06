@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SkyFloatingLabelTextField
 
 class ViewController: UIViewController {
 
@@ -13,7 +14,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var loginPopoupView: LoginPopupView!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var emailTextField: SkyFloatingLabelTextField!
     
+    @IBOutlet weak var passwordTextField: SkyFloatingLabelTextField!
     @IBOutlet weak var signupButton: UITextView!
     
     override var shouldAutorotate: Bool {return true}
@@ -40,11 +43,19 @@ class ViewController: UIViewController {
         backgroundImageView.addBlur(10)
         loginPopoupView.setup()
         
-        
-//        loginButton.backgroundColor = UIColor(red: 29/255, green: 47/255, blue: 144/255, alpha: 1)
     }
 
-
+    @IBAction func onLogin(_ sender: Any) {
+        
+        
+        UIView.animate(withDuration: 0.5) {
+            self.loginPopoupView.layer.opacity = 0
+        }
+        
+        backgroundImageView.removeBlur()
+        
+    }
+    
 }
 
 

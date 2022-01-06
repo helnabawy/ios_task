@@ -11,9 +11,6 @@
         <array key="Axiforma Bold.otf">
             <string>Axiforma-Bold</string>
         </array>
-        <array key="Axiforma Regular.otf">
-            <string>Axiforma-Regular</string>
-        </array>
     </customFonts>
     <scenes>
         <!--View Controller-->
@@ -28,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                             </imageView>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1dz-uD-h6i" customClass="LoginPopupView" customModule="BlockGeminiTask" customModuleProvider="target">
-                                <rect key="frame" x="433" y="312" width="500" height="400"/>
+                                <rect key="frame" x="433" y="302" width="500" height="420"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8z9-kY-4f3">
                                         <rect key="frame" x="130" y="30" width="240" height="85"/>
@@ -47,73 +44,93 @@
                                             </textView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-WZ-yDp">
-                                        <rect key="frame" x="30" y="135" width="440" height="142"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-WZ-yDp">
+                                        <rect key="frame" x="30" y="130" width="440" height="170"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b7h-et-BSt" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="0.0" y="0.0" width="440" height="63.5"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d16-Av-ZsY" userLabel="Email View">
+                                                <rect key="frame" x="0.0" y="0.0" width="440" height="55"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b7h-et-BSt" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                        <rect key="frame" x="16" y="8" width="408" height="39"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="email"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="Email"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Email"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.20000000000000001" green="0.24705882352941178" blue="0.41960784313725491" alpha="0.39000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Axiforma-Regular" family="Axiforma" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Email"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Email"/>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email"/>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
-                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
-                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZN-Lv-bjN" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
-                                                <rect key="frame" x="0.0" y="69.5" width="440" height="36.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="55" id="oGP-IH-q0q"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uad-kK-OBY" userLabel="Password View">
+                                                <rect key="frame" x="0.0" y="70" width="440" height="55"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZWa-BD-zIg" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                        <rect key="frame" x="16" y="8" width="408" height="39"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password"/>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Passsword"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Password"/>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                                <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                </subviews>
                                                 <color key="backgroundColor" red="0.20000000000000001" green="0.2470588235" blue="0.41960784309999999" alpha="0.39000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <fontDescription key="fontDescription" name="Axiforma-Regular" family="Axiforma" pointSize="14"/>
-                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
-                                                <userDefinedRuntimeAttributes>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Email"/>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Password"/>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
-                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Password"/>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
-                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
-                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
-                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                    </userDefinedRuntimeAttribute>
-                                                </userDefinedRuntimeAttributes>
-                                            </textField>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="55" id="k4f-7c-rrN"/>
+                                                </constraints>
+                                            </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wKf-Qu-Q9s">
-                                                <rect key="frame" x="0.0" y="112" width="440" height="30"/>
+                                                <rect key="frame" x="0.0" y="140" width="440" height="30"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sof-pg-l9j">
                                                         <rect key="frame" x="0.0" y="0.0" width="220" height="30"/>
@@ -135,11 +152,13 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="142" id="ivV-0n-4Bw"/>
+                                            <constraint firstItem="d16-Av-ZsY" firstAttribute="leading" secondItem="Iup-WZ-yDp" secondAttribute="leading" id="4eo-zd-ofB"/>
+                                            <constraint firstItem="d16-Av-ZsY" firstAttribute="top" secondItem="Iup-WZ-yDp" secondAttribute="top" id="6Mc-Ej-xr4"/>
+                                            <constraint firstAttribute="trailing" secondItem="d16-Av-ZsY" secondAttribute="trailing" id="wbN-Ix-dkf"/>
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QYD-Ip-vB5">
-                                        <rect key="frame" x="30" y="287" width="440" height="113"/>
+                                        <rect key="frame" x="30" y="310" width="440" height="113"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4y-Aj-dAS">
                                                 <rect key="frame" x="0.0" y="0.0" width="440" height="55"/>
@@ -151,6 +170,9 @@
                                                     <fontDescription key="titleFontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="16"/>
                                                     <color key="baseBackgroundColor" red="0.11372549019607843" green="0.18431372549019609" blue="0.4392156862745098" alpha="0.98923841059602646" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s3g-wW-Ul8"/>
+                                                </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="28d-4a-lIe">
                                                 <rect key="frame" x="0.0" y="63" width="440" height="50"/>
@@ -200,11 +222,11 @@
                                     <constraint firstItem="8z9-kY-4f3" firstAttribute="centerX" secondItem="1dz-uD-h6i" secondAttribute="centerX" id="Fuo-EX-kiU"/>
                                     <constraint firstItem="8z9-kY-4f3" firstAttribute="top" secondItem="1dz-uD-h6i" secondAttribute="top" constant="30" id="IfM-4O-O17"/>
                                     <constraint firstItem="QYD-Ip-vB5" firstAttribute="leading" secondItem="1dz-uD-h6i" secondAttribute="leading" constant="30" id="K7q-PU-yIU"/>
-                                    <constraint firstItem="Iup-WZ-yDp" firstAttribute="top" secondItem="8z9-kY-4f3" secondAttribute="bottom" constant="20" id="KLW-XX-xvP"/>
+                                    <constraint firstItem="Iup-WZ-yDp" firstAttribute="top" secondItem="8z9-kY-4f3" secondAttribute="bottom" constant="15" id="KLW-XX-xvP"/>
                                     <constraint firstItem="QYD-Ip-vB5" firstAttribute="top" secondItem="Iup-WZ-yDp" secondAttribute="bottom" constant="10" id="aiI-jh-B5Z"/>
                                     <constraint firstAttribute="trailing" secondItem="Iup-WZ-yDp" secondAttribute="trailing" constant="30" id="ggP-XP-hf8"/>
                                     <constraint firstAttribute="trailing" secondItem="QYD-Ip-vB5" secondAttribute="trailing" constant="30" id="kQj-KF-yP9"/>
-                                    <constraint firstAttribute="height" constant="400" id="om0-NC-dXu"/>
+                                    <constraint firstAttribute="height" constant="420" id="om0-NC-dXu"/>
                                     <constraint firstItem="Iup-WZ-yDp" firstAttribute="leading" secondItem="1dz-uD-h6i" secondAttribute="leading" constant="30" id="shC-rH-R6z"/>
                                 </constraints>
                             </view>
@@ -222,8 +244,10 @@
                     </view>
                     <connections>
                         <outlet property="backgroundImageView" destination="WzB-LD-xYY" id="jeN-qv-qIF"/>
+                        <outlet property="emailTextField" destination="b7h-et-BSt" id="duL-yl-BzE"/>
                         <outlet property="loginButton" destination="A4y-Aj-dAS" id="0SA-Zd-FRI"/>
                         <outlet property="loginPopoupView" destination="1dz-uD-h6i" id="5jI-MN-365"/>
+                        <outlet property="passwordTextField" destination="ZWa-BD-zIg" id="djO-Ox-BC5"/>
                         <outlet property="signupButton" destination="DQy-Cd-hi7" id="LUS-n9-qLY"/>
                     </connections>
                 </viewController>
@@ -231,10 +255,28 @@
             </objects>
             <point key="canvasLocation" x="93.557833089311856" y="85.546875"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="SQB-wN-6Gs">
+            <objects>
+                <viewController id="2Ig-ck-2VD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0n5-Qt-FVH">
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Awg-7S-0v9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Can-ke-JoZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="746" y="86"/>
+        </scene>
     </scenes>
     <designables>
-        <designable name="mZN-Lv-bjN">
-            <size key="intrinsicContentSize" width="440" height="36.513671875"/>
+        <designable name="ZWa-BD-zIg">
+            <size key="intrinsicContentSize" width="408" height="36.513671875"/>
+        </designable>
+        <designable name="b7h-et-BSt">
+            <size key="intrinsicContentSize" width="408" height="36.513671875"/>
         </designable>
     </designables>
     <resources>
