@@ -16,6 +16,9 @@
 		873977ED2786D28000BD6032 /* BlockGeminiTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977EC2786D28000BD6032 /* BlockGeminiTaskTests.swift */; };
 		873977F72786D28000BD6032 /* BlockGeminiTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977F62786D28000BD6032 /* BlockGeminiTaskUITests.swift */; };
 		873977F92786D28000BD6032 /* BlockGeminiTaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977F82786D28000BD6032 /* BlockGeminiTaskUITestsLaunchTests.swift */; };
+		873978092786DA4800BD6032 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873978082786DA4800BD6032 /* LoginModel.swift */; };
+		8739780B2786DA5F00BD6032 /* LobbyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739780A2786DA5F00BD6032 /* LobbyModel.swift */; };
+		8739780D2786DB5100BD6032 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8739780C2786DB5100BD6032 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		873977F22786D28000BD6032 /* BlockGeminiTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockGeminiTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		873977F62786D28000BD6032 /* BlockGeminiTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGeminiTaskUITests.swift; sourceTree = "<group>"; };
 		873977F82786D28000BD6032 /* BlockGeminiTaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockGeminiTaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		873978082786DA4800BD6032 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		8739780A2786DA5F00BD6032 /* LobbyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyModel.swift; sourceTree = "<group>"; };
+		8739780C2786DB5100BD6032 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 		873977C92786D27F00BD6032 = {
 			isa = PBXGroup;
 			children = (
+				8739780C2786DB5100BD6032 /* README.md */,
 				873977D42786D27F00BD6032 /* BlockGeminiTask */,
 				873977EB2786D28000BD6032 /* BlockGeminiTaskTests */,
 				873977F52786D28000BD6032 /* BlockGeminiTaskUITests */,
@@ -101,8 +108,9 @@
 			children = (
 				873977D52786D27F00BD6032 /* AppDelegate.swift */,
 				873977D72786D27F00BD6032 /* SceneDelegate.swift */,
-				873977D92786D27F00BD6032 /* ViewController.swift */,
-				873977DB2786D27F00BD6032 /* Main.storyboard */,
+				873978072786D33200BD6032 /* Models */,
+				873978052786D31B00BD6032 /* Controllers */,
+				873978062786D32500BD6032 /* Views */,
 				873977DE2786D28000BD6032 /* Assets.xcassets */,
 				873977E02786D28000BD6032 /* LaunchScreen.storyboard */,
 				873977E32786D28000BD6032 /* Info.plist */,
@@ -125,6 +133,31 @@
 				873977F82786D28000BD6032 /* BlockGeminiTaskUITestsLaunchTests.swift */,
 			);
 			path = BlockGeminiTaskUITests;
+			sourceTree = "<group>";
+		};
+		873978052786D31B00BD6032 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				873977D92786D27F00BD6032 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		873978062786D32500BD6032 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				873977DB2786D27F00BD6032 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		873978072786D33200BD6032 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				873978082786DA4800BD6032 /* LoginModel.swift */,
+				8739780A2786DA5F00BD6032 /* LobbyModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +266,7 @@
 			files = (
 				873977E22786D28000BD6032 /* LaunchScreen.storyboard in Resources */,
 				873977DF2786D28000BD6032 /* Assets.xcassets in Resources */,
+				8739780D2786DB5100BD6032 /* README.md in Resources */,
 				873977DD2786D27F00BD6032 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +293,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				873977DA2786D27F00BD6032 /* ViewController.swift in Sources */,
+				873978092786DA4800BD6032 /* LoginModel.swift in Sources */,
 				873977D62786D27F00BD6032 /* AppDelegate.swift in Sources */,
+				8739780B2786DA5F00BD6032 /* LobbyModel.swift in Sources */,
 				873977D82786D27F00BD6032 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,13 +473,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockGeminiTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -453,6 +492,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blockgemini.task.BlockGeminiTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,13 +504,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockGeminiTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeRight UIInterfaceOrientationLandscapeLeft";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,6 +523,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.blockgemini.task.BlockGeminiTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
