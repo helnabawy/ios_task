@@ -8,7 +8,7 @@
 import UIKit
 import SkyFloatingLabelTextField
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     
     @IBOutlet weak var backgroundImageView: UIImageView!
@@ -25,14 +25,17 @@ class ViewController: UIViewController {
     
     
     override func viewWillAppear(_ animated: Bool) {
-        
         configScreen()
-        
         super.viewWillAppear(animated)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(dismissScreen(sender:)))
+        gesture.numberOfTapsRequired = 1
+        backgroundImageView.isUserInteractionEnabled = true
+        backgroundImageView.addGestureRecognizer(gesture)
     }
     
     func configScreen() {
@@ -44,16 +47,30 @@ class ViewController: UIViewController {
         loginPopoupView.setup()
         
     }
+    
+    @objc func dismissScreen(sender: Any) {
+        UIView.animate(withDuration: 0.5) {
+            self.loginPopoupView.layer.opacity = 0
+            self.dismiss(animated: true)
+        }
+        
+    }
+    
 
     @IBAction func onLogin(_ sender: Any) {
+        // TODO: check for user input
         
+        // dismiss the popup
+        dismissWithAnimation()
         
+    }
+    
+    private func dismissWithAnimation() {
         UIView.animate(withDuration: 0.5) {
             self.loginPopoupView.layer.opacity = 0
         }
         
         backgroundImageView.removeBlur()
-        
     }
     
 }

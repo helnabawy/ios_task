@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2Ig-ck-2VD">
     <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,10 +14,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlockGeminiTask" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="BYZ-38-t0r" customClass="HomeViewController" customModule="BlockGeminiTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -242,6 +243,7 @@
                             <constraint firstAttribute="bottom" secondItem="WzB-LD-xYY" secondAttribute="bottom" id="mnw-hV-S68"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="JBD-ob-gPT"/>
                     <connections>
                         <outlet property="backgroundImageView" destination="WzB-LD-xYY" id="jeN-qv-qIF"/>
                         <outlet property="emailTextField" destination="b7h-et-BSt" id="duL-yl-BzE"/>
@@ -253,22 +255,98 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93.557833089311856" y="85.546875"/>
+            <point key="canvasLocation" x="503" y="86"/>
         </scene>
-        <!--View Controller-->
+        <!--Lobby View Controller-->
         <scene sceneID="SQB-wN-6Gs">
             <objects>
-                <viewController id="2Ig-ck-2VD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LobyVC" id="2Ig-ck-2VD" customClass="LobbyViewController" customModule="BlockGeminiTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0n5-Qt-FVH">
                         <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LobbyBackground" translatesAutoresizingMaskIntoConstraints="NO" id="AHG-f7-AhQ">
+                                <rect key="frame" x="0.0" y="125" width="1366" height="899"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-jh-SAx" customClass="LobbyAppBar" customModule="BlockGeminiTask" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="125"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8GF-4Y-4Xg">
+                                        <rect key="frame" x="20" y="10" width="240" height="115"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="15N-rh-QYJ"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qf8-cP-Mmd">
+                                        <rect key="frame" x="966" y="20" width="400" height="105"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHd-uk-pdb">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="105"/>
+                                                <color key="backgroundColor" red="0.027450980392156862" green="0.086274509803921567" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
+                                                <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Register" image="person" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="34"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-3j-oy7">
+                                                <rect key="frame" x="200" y="0.0" width="200" height="105"/>
+                                                <color key="backgroundColor" red="0.0" green="0.14465567476990795" blue="0.3529411764705882" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
+                                                <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="Login">
+                                                    <imageReference key="image" image="rectangle.portrait.and.arrow.right" catalog="system" symbolScale="large"/>
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24" scale="default"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="onLoginPressed:" destination="2Ig-ck-2VD" eventType="touchUpInside" id="IuG-qK-6Ks"/>
+                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="LQ9-T7-jcz"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.027450980392156862" green="0.086274509803921567" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="400" id="FVz-Aw-Ey8"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.1137254902" green="0.1843137255" blue="0.43921568630000002" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Qf8-cP-Mmd" secondAttribute="bottom" id="0uk-u1-SAY"/>
+                                    <constraint firstItem="Qf8-cP-Mmd" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="top" constant="20" id="8v2-Ja-WC9"/>
+                                    <constraint firstAttribute="height" constant="125" id="bYh-IR-P0d"/>
+                                    <constraint firstItem="8GF-4Y-4Xg" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="top" constant="10" id="qD4-ls-XHE"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qf8-cP-Mmd" secondAttribute="trailing" id="qDA-su-Sjc"/>
+                                    <constraint firstAttribute="bottom" secondItem="8GF-4Y-4Xg" secondAttribute="bottom" id="yEs-jN-UjS"/>
+                                    <constraint firstItem="8GF-4Y-4Xg" firstAttribute="leading" secondItem="Hbp-jh-SAx" secondAttribute="leading" constant="20" id="zuz-c4-yL0"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Awg-7S-0v9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="AHG-f7-AhQ" secondAttribute="bottom" id="3B6-Lq-4US"/>
+                            <constraint firstItem="AHG-f7-AhQ" firstAttribute="leading" secondItem="Awg-7S-0v9" secondAttribute="leading" id="KWu-3P-1MP"/>
+                            <constraint firstItem="AHG-f7-AhQ" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="bottom" id="OYd-7o-0sg"/>
+                            <constraint firstItem="Hbp-jh-SAx" firstAttribute="trailing" secondItem="Awg-7S-0v9" secondAttribute="trailing" id="iZP-KJ-fNJ"/>
+                            <constraint firstItem="AHG-f7-AhQ" firstAttribute="trailing" secondItem="Awg-7S-0v9" secondAttribute="trailing" id="qM9-NU-H5C"/>
+                            <constraint firstItem="Hbp-jh-SAx" firstAttribute="leading" secondItem="Awg-7S-0v9" secondAttribute="leading" id="rfH-U1-ESF"/>
+                            <constraint firstItem="Hbp-jh-SAx" firstAttribute="leading" secondItem="Awg-7S-0v9" secondAttribute="leading" id="tHl-6r-jd3"/>
+                            <constraint firstItem="Hbp-jh-SAx" firstAttribute="top" secondItem="0n5-Qt-FVH" secondAttribute="top" id="yf2-UF-BXY"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="appBarView" destination="Hbp-jh-SAx" id="fGc-bh-gaw"/>
+                        <outlet property="loginButton" destination="bgF-3j-oy7" id="hKC-86-kag"/>
+                        <outlet property="registerButton" destination="SHd-uk-pdb" id="pl2-WG-AqT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Can-ke-JoZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="746" y="86"/>
+            <point key="canvasLocation" x="-134.407027818448" y="85.546875"/>
         </scene>
     </scenes>
     <designables>
@@ -281,7 +359,10 @@
     </designables>
     <resources>
         <image name="Background" width="1437.5" height="896"/>
+        <image name="LobbyBackground" width="2875" height="1792"/>
         <image name="Logo" width="175" height="45"/>
+        <image name="person" catalog="system" width="128" height="117"/>
+        <image name="rectangle.portrait.and.arrow.right" catalog="system" width="128" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
