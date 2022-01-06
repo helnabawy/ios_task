@@ -1,24 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad12_9rounded" orientation="landscape" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Axiforma Bold.otf">
+            <string>Axiforma-Bold</string>
+        </array>
+        <array key="Axiforma Regular.otf">
+            <string>Axiforma-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BlockGeminiTask" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="WzB-LD-xYY">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                            </imageView>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1dz-uD-h6i" customClass="LoginPopupView" customModule="BlockGeminiTask" customModuleProvider="target">
+                                <rect key="frame" x="433" y="312" width="500" height="400"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8z9-kY-4f3">
+                                        <rect key="frame" x="130" y="30" width="240" height="85"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="UqB-7y-SeW">
+                                                <rect key="frame" x="0.0" y="0.0" width="240" height="45"/>
+                                            </imageView>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Log in" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9Rj-qr-Tmn">
+                                                <rect key="frame" x="0.0" y="45" width="240" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="ZnU-IN-5Tf"/>
+                                                </constraints>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="17"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-WZ-yDp">
+                                        <rect key="frame" x="30" y="135" width="440" height="142"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b7h-et-BSt" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="0.0" y="0.0" width="440" height="63.5"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.24705882352941178" blue="0.41960784313725491" alpha="0.39000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Axiforma-Regular" family="Axiforma" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Email"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Email"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mZN-Lv-bjN" customClass="SkyFloatingLabelTextField" customModule="SkyFloatingLabelTextField">
+                                                <rect key="frame" x="0.0" y="69.5" width="440" height="36.5"/>
+                                                <color key="backgroundColor" red="0.20000000000000001" green="0.2470588235" blue="0.41960784309999999" alpha="0.39000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Axiforma-Regular" family="Axiforma" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="title" value="Email"/>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Password"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                        <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Password"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
+                                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
+                                                        <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </textField>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wKf-Qu-Q9s">
+                                                <rect key="frame" x="0.0" y="112" width="440" height="30"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sof-pg-l9j">
+                                                        <rect key="frame" x="0.0" y="0.0" width="220" height="30"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="30" id="ykU-rd-kA3"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-CE-1Lt">
+                                                        <rect key="frame" x="220" y="0.0" width="220" height="30"/>
+                                                        <color key="tintColor" red="0.792156862745098" green="0.83529411764705885" blue="0.89803921568627454" alpha="0.81136175496688745" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
+                                                            <fontDescription key="titleFontDescription" name="Axiforma-Regular" family="Axiforma" pointSize="11"/>
+                                                        </buttonConfiguration>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="142" id="ivV-0n-4Bw"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="center" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QYD-Ip-vB5">
+                                        <rect key="frame" x="30" y="287" width="440" height="113"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4y-Aj-dAS">
+                                                <rect key="frame" x="0.0" y="0.0" width="440" height="55"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="55" id="4V0-Cj-vhk"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Log in">
+                                                    <fontDescription key="titleFontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="16"/>
+                                                    <color key="baseBackgroundColor" red="0.11372549019607843" green="0.18431372549019609" blue="0.4392156862745098" alpha="0.98923841059602646" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="28d-4a-lIe">
+                                                <rect key="frame" x="0.0" y="63" width="440" height="50"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="center" distribution="equalSpacing" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CsA-8E-6U4">
+                                                        <rect key="frame" x="0.0" y="0.0" width="440" height="50"/>
+                                                        <subviews>
+                                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-Ep-V4b">
+                                                                <rect key="frame" x="0.0" y="0.0" width="59.5" height="50"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="Don’t have an account," textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AZu-pL-vpN">
+                                                                <rect key="frame" x="59.5" y="0.0" width="234" height="50"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="234" id="dm5-SR-G0b"/>
+                                                                    <constraint firstAttribute="height" constant="50" id="smY-HK-6z1"/>
+                                                                </constraints>
+                                                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Sign up" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQy-Cd-hi7">
+                                                                <rect key="frame" x="293.5" y="0.0" width="146.5" height="50"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="146.5" id="9Zz-fX-kGP"/>
+                                                                </constraints>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="14"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="DQy-Cd-hi7" firstAttribute="leading" secondItem="AZu-pL-vpN" secondAttribute="trailing" id="Cqk-sX-2iu"/>
+                                                            <constraint firstItem="DQy-Cd-hi7" firstAttribute="top" secondItem="AZu-pL-vpN" secondAttribute="top" id="dMH-q9-sOp"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="500" id="5fP-5a-Xfx"/>
+                                    <constraint firstItem="8z9-kY-4f3" firstAttribute="centerX" secondItem="1dz-uD-h6i" secondAttribute="centerX" id="Fuo-EX-kiU"/>
+                                    <constraint firstItem="8z9-kY-4f3" firstAttribute="top" secondItem="1dz-uD-h6i" secondAttribute="top" constant="30" id="IfM-4O-O17"/>
+                                    <constraint firstItem="QYD-Ip-vB5" firstAttribute="leading" secondItem="1dz-uD-h6i" secondAttribute="leading" constant="30" id="K7q-PU-yIU"/>
+                                    <constraint firstItem="Iup-WZ-yDp" firstAttribute="top" secondItem="8z9-kY-4f3" secondAttribute="bottom" constant="20" id="KLW-XX-xvP"/>
+                                    <constraint firstItem="QYD-Ip-vB5" firstAttribute="top" secondItem="Iup-WZ-yDp" secondAttribute="bottom" constant="10" id="aiI-jh-B5Z"/>
+                                    <constraint firstAttribute="trailing" secondItem="Iup-WZ-yDp" secondAttribute="trailing" constant="30" id="ggP-XP-hf8"/>
+                                    <constraint firstAttribute="trailing" secondItem="QYD-Ip-vB5" secondAttribute="trailing" constant="30" id="kQj-KF-yP9"/>
+                                    <constraint firstAttribute="height" constant="400" id="om0-NC-dXu"/>
+                                    <constraint firstItem="Iup-WZ-yDp" firstAttribute="leading" secondItem="1dz-uD-h6i" secondAttribute="leading" constant="30" id="shC-rH-R6z"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1dz-uD-h6i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5jR-qS-FBl"/>
+                            <constraint firstItem="WzB-LD-xYY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BEE-Ip-trJ"/>
+                            <constraint firstItem="WzB-LD-xYY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="GGa-vd-I4K"/>
+                            <constraint firstItem="WzB-LD-xYY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LMa-Sr-3de"/>
+                            <constraint firstItem="1dz-uD-h6i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mSM-yP-Zos"/>
+                            <constraint firstAttribute="bottom" secondItem="WzB-LD-xYY" secondAttribute="bottom" id="mnw-hV-S68"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="WzB-LD-xYY" id="jeN-qv-qIF"/>
+                        <outlet property="loginButton" destination="A4y-Aj-dAS" id="0SA-Zd-FRI"/>
+                        <outlet property="loginPopoupView" destination="1dz-uD-h6i" id="5jI-MN-365"/>
+                        <outlet property="signupButton" destination="DQy-Cd-hi7" id="LUS-n9-qLY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="93.557833089311856" y="85.546875"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="mZN-Lv-bjN">
+            <size key="intrinsicContentSize" width="440" height="36.513671875"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Background" width="1437.5" height="896"/>
+        <image name="Logo" width="175" height="45"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

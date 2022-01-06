@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		595770C0DCA3D951D288E835 /* Pods_BlockGeminiTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A3E946F43D95C4EBEC54AC /* Pods_BlockGeminiTask.framework */; };
 		873977D62786D27F00BD6032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977D52786D27F00BD6032 /* AppDelegate.swift */; };
 		873977D82786D27F00BD6032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977D72786D27F00BD6032 /* SceneDelegate.swift */; };
 		873977DA2786D27F00BD6032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977D92786D27F00BD6032 /* ViewController.swift */; };
@@ -19,6 +20,12 @@
 		873978092786DA4800BD6032 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873978082786DA4800BD6032 /* LoginModel.swift */; };
 		8739780B2786DA5F00BD6032 /* LobbyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739780A2786DA5F00BD6032 /* LobbyModel.swift */; };
 		8739780D2786DB5100BD6032 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8739780C2786DB5100BD6032 /* README.md */; };
+		873978102786F22300BD6032 /* LoginPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739780F2786F22300BD6032 /* LoginPopupView.swift */; };
+		873978122786F35800BD6032 /* ViewBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873978112786F35800BD6032 /* ViewBlur.swift */; };
+		873978162786F6F200BD6032 /* Axiforma Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 873978142786F6F200BD6032 /* Axiforma Bold.otf */; };
+		873978172786F6F200BD6032 /* Axiforma Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 873978152786F6F200BD6032 /* Axiforma Regular.otf */; };
+		8B618F4BDAF07EA183B40DEB /* Pods_BlockGeminiTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5753BC80858FCAD0E4691F85 /* Pods_BlockGeminiTaskTests.framework */; };
+		D11A997C35700BC42D0042F9 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9920C27B6E43D460EFBAFD5 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01FA9BD73F78983AF199C6AC /* Pods-BlockGeminiTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5753BC80858FCAD0E4691F85 /* Pods_BlockGeminiTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockGeminiTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A3E946F43D95C4EBEC54AC /* Pods_BlockGeminiTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockGeminiTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873977D22786D27F00BD6032 /* BlockGeminiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockGeminiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873977D52786D27F00BD6032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873977D72786D27F00BD6032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +65,16 @@
 		873978082786DA4800BD6032 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		8739780A2786DA5F00BD6032 /* LobbyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyModel.swift; sourceTree = "<group>"; };
 		8739780C2786DB5100BD6032 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8739780F2786F22300BD6032 /* LoginPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPopupView.swift; sourceTree = "<group>"; };
+		873978112786F35800BD6032 /* ViewBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBlur.swift; sourceTree = "<group>"; };
+		873978142786F6F200BD6032 /* Axiforma Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Axiforma Bold.otf"; sourceTree = "<group>"; };
+		873978152786F6F200BD6032 /* Axiforma Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Axiforma Regular.otf"; sourceTree = "<group>"; };
+		91994B2F630721C17917A0A2 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A0B8C7E1B3DE62235DA01A41 /* Pods-BlockGeminiTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask.debug.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask.debug.xcconfig"; sourceTree = "<group>"; };
+		A4DF8A6E0CC6A81553BA46ED /* Pods-BlockGeminiTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTaskTests.release.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9920C27B6E43D460EFBAFD5 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDA73BAF4B890B5ED0CA6B01 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFC7B831A1D6CDE63D6133C /* Pods-BlockGeminiTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask.release.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				595770C0DCA3D951D288E835 /* Pods_BlockGeminiTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B618F4BDAF07EA183B40DEB /* Pods_BlockGeminiTaskTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +98,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11A997C35700BC42D0042F9 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28C96C2166909476FAC96E1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67A3E946F43D95C4EBEC54AC /* Pods_BlockGeminiTask.framework */,
+				C9920C27B6E43D460EFBAFD5 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework */,
+				5753BC80858FCAD0E4691F85 /* Pods_BlockGeminiTaskTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		873977C92786D27F00BD6032 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +123,8 @@
 				873977EB2786D28000BD6032 /* BlockGeminiTaskTests */,
 				873977F52786D28000BD6032 /* BlockGeminiTaskUITests */,
 				873977D32786D27F00BD6032 /* Products */,
+				AC6C48795D4014D05778467D /* Pods */,
+				28C96C2166909476FAC96E1A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,11 +143,12 @@
 			children = (
 				873977D52786D27F00BD6032 /* AppDelegate.swift */,
 				873977D72786D27F00BD6032 /* SceneDelegate.swift */,
+				873978132786F5BF00BD6032 /* Fonts */,
+				8739780E2786F1ED00BD6032 /* Extensions */,
 				873978072786D33200BD6032 /* Models */,
 				873978052786D31B00BD6032 /* Controllers */,
 				873978062786D32500BD6032 /* Views */,
 				873977DE2786D28000BD6032 /* Assets.xcassets */,
-				873977E02786D28000BD6032 /* LaunchScreen.storyboard */,
 				873977E32786D28000BD6032 /* Info.plist */,
 			);
 			path = BlockGeminiTask;
@@ -146,6 +182,7 @@
 		873978062786D32500BD6032 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				873977E02786D28000BD6032 /* LaunchScreen.storyboard */,
 				873977DB2786D27F00BD6032 /* Main.storyboard */,
 			);
 			path = Views;
@@ -160,6 +197,37 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		8739780E2786F1ED00BD6032 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8739780F2786F22300BD6032 /* LoginPopupView.swift */,
+				873978112786F35800BD6032 /* ViewBlur.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		873978132786F5BF00BD6032 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				873978142786F6F200BD6032 /* Axiforma Bold.otf */,
+				873978152786F6F200BD6032 /* Axiforma Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AC6C48795D4014D05778467D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A0B8C7E1B3DE62235DA01A41 /* Pods-BlockGeminiTask.debug.xcconfig */,
+				DDFC7B831A1D6CDE63D6133C /* Pods-BlockGeminiTask.release.xcconfig */,
+				DDA73BAF4B890B5ED0CA6B01 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */,
+				91994B2F630721C17917A0A2 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */,
+				01FA9BD73F78983AF199C6AC /* Pods-BlockGeminiTaskTests.debug.xcconfig */,
+				A4DF8A6E0CC6A81553BA46ED /* Pods-BlockGeminiTaskTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873977FC2786D28000BD6032 /* Build configuration list for PBXNativeTarget "BlockGeminiTask" */;
 			buildPhases = (
+				84503EF481F61459EE0B6EF4 /* [CP] Check Pods Manifest.lock */,
 				873977CE2786D27F00BD6032 /* Sources */,
 				873977CF2786D27F00BD6032 /* Frameworks */,
 				873977D02786D27F00BD6032 /* Resources */,
+				1F1F56BD7F0FBDF3F3F9DBD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,6 +254,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873977FF2786D28000BD6032 /* Build configuration list for PBXNativeTarget "BlockGeminiTaskTests" */;
 			buildPhases = (
+				8BBE74AF94E9F951E6BA568D /* [CP] Check Pods Manifest.lock */,
 				873977E42786D28000BD6032 /* Sources */,
 				873977E52786D28000BD6032 /* Frameworks */,
 				873977E62786D28000BD6032 /* Resources */,
@@ -202,9 +273,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 873978022786D28000BD6032 /* Build configuration list for PBXNativeTarget "BlockGeminiTaskUITests" */;
 			buildPhases = (
+				073692A782963671D0E10451 /* [CP] Check Pods Manifest.lock */,
 				873977EE2786D28000BD6032 /* Sources */,
 				873977EF2786D28000BD6032 /* Frameworks */,
 				873977F02786D28000BD6032 /* Resources */,
+				64EA477F84C83AD98AA03B5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,8 +337,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873978172786F6F200BD6032 /* Axiforma Regular.otf in Resources */,
 				873977E22786D28000BD6032 /* LaunchScreen.storyboard in Resources */,
 				873977DF2786D28000BD6032 /* Assets.xcassets in Resources */,
+				873978162786F6F200BD6032 /* Axiforma Bold.otf in Resources */,
 				8739780D2786DB5100BD6032 /* README.md in Resources */,
 				873977DD2786D27F00BD6032 /* Main.storyboard in Resources */,
 			);
@@ -287,14 +362,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		073692A782963671D0E10451 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockGeminiTask-BlockGeminiTaskUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F1F56BD7F0FBDF3F3F9DBD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64EA477F84C83AD98AA03B5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84503EF481F61459EE0B6EF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockGeminiTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BBE74AF94E9F951E6BA568D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlockGeminiTaskTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		873977CE2786D27F00BD6032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873978122786F35800BD6032 /* ViewBlur.swift in Sources */,
 				873977DA2786D27F00BD6032 /* ViewController.swift in Sources */,
 				873978092786DA4800BD6032 /* LoginModel.swift in Sources */,
 				873977D62786D27F00BD6032 /* AppDelegate.swift in Sources */,
+				873978102786F22300BD6032 /* LoginPopupView.swift in Sources */,
 				8739780B2786DA5F00BD6032 /* LobbyModel.swift in Sources */,
 				873977D82786D27F00BD6032 /* SceneDelegate.swift in Sources */,
 			);
@@ -470,6 +650,7 @@
 		};
 		873977FD2786D28000BD6032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B8C7E1B3DE62235DA01A41 /* Pods-BlockGeminiTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -501,6 +682,7 @@
 		};
 		873977FE2786D28000BD6032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDFC7B831A1D6CDE63D6133C /* Pods-BlockGeminiTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -532,6 +714,7 @@
 		};
 		873978002786D28000BD6032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FA9BD73F78983AF199C6AC /* Pods-BlockGeminiTaskTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,6 +734,7 @@
 		};
 		873978012786D28000BD6032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4DF8A6E0CC6A81553BA46ED /* Pods-BlockGeminiTaskTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -570,6 +754,7 @@
 		};
 		873978032786D28000BD6032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA73BAF4B890B5ED0CA6B01 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -587,6 +772,7 @@
 		};
 		873978042786D28000BD6032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91994B2F630721C17917A0A2 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
