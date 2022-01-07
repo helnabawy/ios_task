@@ -1,4 +1,4 @@
-framework module Pods_BlockGeminiTask_BlockGeminiTaskUITests {
+module Pods_BlockGeminiTask_BlockGeminiTaskUITests {
   umbrella header "Pods-BlockGeminiTask-BlockGeminiTaskUITests-umbrella.h"
 
   export *

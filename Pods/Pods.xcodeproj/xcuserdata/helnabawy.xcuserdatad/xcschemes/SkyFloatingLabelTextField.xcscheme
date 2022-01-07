@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DFBAF98039AB4BA7927B611FB65B61BC"
-               BuildableName = "SkyFloatingLabelTextField.framework"
+               BuildableName = "libSkyFloatingLabelTextField.a"
                BlueprintName = "SkyFloatingLabelTextField"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		595770C0DCA3D951D288E835 /* Pods_BlockGeminiTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67A3E946F43D95C4EBEC54AC /* Pods_BlockGeminiTask.framework */; };
+		0C71FD642EEF4BAED2365CBB /* libPods-BlockGeminiTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E245A6668D6753D2D1C63E62 /* libPods-BlockGeminiTask.a */; };
+		27D3FFE753B93C4FC1BF2D43 /* libPods-BlockGeminiTaskTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F255E18F40D031644AE32E60 /* libPods-BlockGeminiTaskTests.a */; };
 		873977D62786D27F00BD6032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977D52786D27F00BD6032 /* AppDelegate.swift */; };
 		873977D82786D27F00BD6032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977D72786D27F00BD6032 /* SceneDelegate.swift */; };
 		873977DA2786D27F00BD6032 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 873977D92786D27F00BD6032 /* HomeViewController.swift */; };
@@ -27,8 +28,7 @@
 		8739781927878BD100BD6032 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739781827878BD000BD6032 /* LobbyViewController.swift */; };
 		8739781B27878DF500BD6032 /* LobbyAppBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739781A27878DF500BD6032 /* LobbyAppBar.swift */; };
 		8739781D278796DF00BD6032 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8739781C278796DF00BD6032 /* Constants.swift */; };
-		8B618F4BDAF07EA183B40DEB /* Pods_BlockGeminiTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5753BC80858FCAD0E4691F85 /* Pods_BlockGeminiTaskTests.framework */; };
-		D11A997C35700BC42D0042F9 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9920C27B6E43D460EFBAFD5 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework */; };
+		B4F005F1C874AF03D03A2BED /* libPods-BlockGeminiTask-BlockGeminiTaskUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87318E00D5D38BFD1F78351C /* libPods-BlockGeminiTask-BlockGeminiTaskUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,7 @@
 
 /* Begin PBXFileReference section */
 		01FA9BD73F78983AF199C6AC /* Pods-BlockGeminiTaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTaskTests.debug.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5753BC80858FCAD0E4691F85 /* Pods_BlockGeminiTaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockGeminiTaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		67A3E946F43D95C4EBEC54AC /* Pods_BlockGeminiTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockGeminiTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87318E00D5D38BFD1F78351C /* libPods-BlockGeminiTask-BlockGeminiTaskUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockGeminiTask-BlockGeminiTaskUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		873977D22786D27F00BD6032 /* BlockGeminiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlockGeminiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		873977D52786D27F00BD6032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		873977D72786D27F00BD6032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,12 +74,14 @@
 		8739781827878BD000BD6032 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
 		8739781A27878DF500BD6032 /* LobbyAppBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyAppBar.swift; sourceTree = "<group>"; };
 		8739781C278796DF00BD6032 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		874AA2AD2788A26700832A01 /* BlockGeminiTask.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BlockGeminiTask.entitlements; sourceTree = "<group>"; };
 		91994B2F630721C17917A0A2 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A0B8C7E1B3DE62235DA01A41 /* Pods-BlockGeminiTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask.debug.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask.debug.xcconfig"; sourceTree = "<group>"; };
 		A4DF8A6E0CC6A81553BA46ED /* Pods-BlockGeminiTaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTaskTests.release.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTaskTests/Pods-BlockGeminiTaskTests.release.xcconfig"; sourceTree = "<group>"; };
-		C9920C27B6E43D460EFBAFD5 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA73BAF4B890B5ED0CA6B01 /* Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		DDFC7B831A1D6CDE63D6133C /* Pods-BlockGeminiTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlockGeminiTask.release.xcconfig"; path = "Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask.release.xcconfig"; sourceTree = "<group>"; };
+		E245A6668D6753D2D1C63E62 /* libPods-BlockGeminiTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockGeminiTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F255E18F40D031644AE32E60 /* libPods-BlockGeminiTaskTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlockGeminiTaskTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				595770C0DCA3D951D288E835 /* Pods_BlockGeminiTask.framework in Frameworks */,
+				0C71FD642EEF4BAED2365CBB /* libPods-BlockGeminiTask.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B618F4BDAF07EA183B40DEB /* Pods_BlockGeminiTaskTests.framework in Frameworks */,
+				27D3FFE753B93C4FC1BF2D43 /* libPods-BlockGeminiTaskTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D11A997C35700BC42D0042F9 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework in Frameworks */,
+				B4F005F1C874AF03D03A2BED /* libPods-BlockGeminiTask-BlockGeminiTaskUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,9 +115,9 @@
 		28C96C2166909476FAC96E1A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				67A3E946F43D95C4EBEC54AC /* Pods_BlockGeminiTask.framework */,
-				C9920C27B6E43D460EFBAFD5 /* Pods_BlockGeminiTask_BlockGeminiTaskUITests.framework */,
-				5753BC80858FCAD0E4691F85 /* Pods_BlockGeminiTaskTests.framework */,
+				E245A6668D6753D2D1C63E62 /* libPods-BlockGeminiTask.a */,
+				87318E00D5D38BFD1F78351C /* libPods-BlockGeminiTask-BlockGeminiTaskUITests.a */,
+				F255E18F40D031644AE32E60 /* libPods-BlockGeminiTaskTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,6 +148,7 @@
 		873977D42786D27F00BD6032 /* BlockGeminiTask */ = {
 			isa = PBXGroup;
 			children = (
+				874AA2AD2788A26700832A01 /* BlockGeminiTask.entitlements */,
 				873977D52786D27F00BD6032 /* AppDelegate.swift */,
 				873977D72786D27F00BD6032 /* SceneDelegate.swift */,
 				873978132786F5BF00BD6032 /* Fonts */,
@@ -248,7 +250,6 @@
 				873977CE2786D27F00BD6032 /* Sources */,
 				873977CF2786D27F00BD6032 /* Frameworks */,
 				873977D02786D27F00BD6032 /* Resources */,
-				1F1F56BD7F0FBDF3F3F9DBD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -286,7 +287,6 @@
 				873977EE2786D28000BD6032 /* Sources */,
 				873977EF2786D28000BD6032 /* Frameworks */,
 				873977F02786D28000BD6032 /* Resources */,
-				64EA477F84C83AD98AA03B5F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -392,40 +392,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1F1F56BD7F0FBDF3F3F9DBD5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask/Pods-BlockGeminiTask-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		64EA477F84C83AD98AA03B5F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlockGeminiTask-BlockGeminiTaskUITests/Pods-BlockGeminiTask-BlockGeminiTaskUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		84503EF481F61459EE0B6EF4 /* [CP] Check Pods Manifest.lock */ = {
@@ -666,12 +632,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlockGeminiTask/BlockGeminiTask.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = A37BM5XX86;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockGeminiTask/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PokerZone;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -686,9 +656,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blockgemini.task.BlockGeminiTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Debug;
 		};
@@ -698,12 +669,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlockGeminiTask/BlockGeminiTask.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = A37BM5XX86;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlockGeminiTask/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PokerZone;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -718,9 +693,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.blockgemini.task.BlockGeminiTask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,6";
 			};
 			name = Release;
 		};

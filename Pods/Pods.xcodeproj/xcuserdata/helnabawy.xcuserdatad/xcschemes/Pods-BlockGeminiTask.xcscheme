@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1660F77B62A0CA01BB6AE76CD12EFA39"
-               BuildableName = "Pods_BlockGeminiTask.framework"
+               BuildableName = "libPods-BlockGeminiTask.a"
                BlueprintName = "Pods-BlockGeminiTask"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

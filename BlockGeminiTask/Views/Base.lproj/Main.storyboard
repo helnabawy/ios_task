@@ -46,7 +46,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Iup-WZ-yDp">
-                                        <rect key="frame" x="30" y="130" width="440" height="170"/>
+                                        <rect key="frame" x="30" y="130" width="440" height="175"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d16-Av-ZsY" userLabel="Email View">
                                                 <rect key="frame" x="0.0" y="0.0" width="440" height="55"/>
@@ -58,7 +58,7 @@
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="email"/>
+                                                        <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="title" value="Email"/>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Email"/>
@@ -66,7 +66,7 @@
                                                                 <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.52175600165562908" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                                                 <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -76,7 +76,7 @@
                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
-                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.51725475993377479" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -96,10 +96,10 @@
                                                         <rect key="frame" x="16" y="8" width="408" height="39"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="tintColor" white="1" alpha="0.7876138245033113" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <color key="textColor" white="1" alpha="0.85839197019867552" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                                                        <textInputTraits key="textInputTraits" textContentType="password"/>
                                                         <userDefinedRuntimeAttributes>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="title" value="Password"/>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="selectedTitle" value="Passsword"/>
@@ -107,7 +107,7 @@
                                                                 <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.81136175499999996" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
-                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.53135347682119205" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="textColor">
                                                                 <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -117,14 +117,14 @@
                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="selectedTitleColor">
-                                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <color key="value" red="0.79215686269999996" green="0.83529411760000005" blue="0.8980392157" alpha="0.51725475990000003" colorSpace="custom" customColorSpace="displayP3"/>
                                                             </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="color" keyPath="selectedLineColor">
                                                                 <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                     </textField>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQA-x3-7xw">
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iQA-x3-7xw">
                                                         <rect key="frame" x="404" y="17.5" width="20" height="20"/>
                                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
@@ -142,18 +142,32 @@
                                                     <constraint firstAttribute="height" constant="55" id="k4f-7c-rrN"/>
                                                 </constraints>
                                             </view>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wKf-Qu-Q9s">
-                                                <rect key="frame" x="0.0" y="140" width="440" height="30"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wKf-Qu-Q9s">
+                                                <rect key="frame" x="0.0" y="140" width="440" height="35"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sof-pg-l9j">
-                                                        <rect key="frame" x="0.0" y="0.0" width="220" height="30"/>
+                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hdg-4V-0ht">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="35"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="ykU-rd-kA3"/>
+                                                            <constraint firstAttribute="height" constant="35" id="KkP-Ve-Y2L"/>
                                                         </constraints>
                                                     </view>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-CE-1Lt">
-                                                        <rect key="frame" x="220" y="0.0" width="220" height="30"/>
+                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="W0k-ed-wGk">
+                                                        <rect key="frame" x="110" y="0.0" width="100" height="35"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="KwU-UL-K1p"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yvt-6r-Hvk">
+                                                        <rect key="frame" x="210" y="0.0" width="110" height="35"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="35" id="azX-hb-pPl"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="clip" translatesAutoresizingMaskIntoConstraints="NO" id="hrd-CE-1Lt">
+                                                        <rect key="frame" x="320" y="0.0" width="120" height="35"/>
                                                         <color key="tintColor" red="0.792156862745098" green="0.83529411764705885" blue="0.89803921568627454" alpha="0.81136175496688745" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <state key="normal" title="Button"/>
                                                         <buttonConfiguration key="configuration" style="plain" title="Forgot Password?">
@@ -171,18 +185,19 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="center" axis="vertical" distribution="equalSpacing" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="QYD-Ip-vB5">
-                                        <rect key="frame" x="30" y="310" width="440" height="113"/>
+                                        <rect key="frame" x="30" y="315" width="440" height="113"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A4y-Aj-dAS">
                                                 <rect key="frame" x="0.0" y="0.0" width="440" height="55"/>
+                                                <color key="backgroundColor" red="0.11372549019607843" green="0.18431372549019609" blue="0.4392156862745098" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="55" id="4V0-Cj-vhk"/>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="55" id="ylh-e1-94u"/>
                                                 </constraints>
-                                                <color key="tintColor" red="0.0" green="0.14465567479999999" blue="0.35294117650000001" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Log in">
+                                                <buttonConfiguration key="configuration" style="plain" title="Log in">
                                                     <fontDescription key="titleFontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="16"/>
-                                                    <color key="baseBackgroundColor" red="0.11372549019607843" green="0.18431372549019609" blue="0.4392156862745098" alpha="0.98923841059602646" colorSpace="custom" customColorSpace="displayP3"/>
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s3g-wW-Ul8"/>
@@ -191,7 +206,7 @@
                                             <stackView opaque="NO" contentMode="center" distribution="fillEqually" alignment="center" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="28d-4a-lIe">
                                                 <rect key="frame" x="0.0" y="63" width="440" height="50"/>
                                                 <subviews>
-                                                    <stackView opaque="NO" contentMode="center" distribution="equalSpacing" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CsA-8E-6U4">
+                                                    <stackView opaque="NO" contentMode="center" baselineRelativeArrangement="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CsA-8E-6U4">
                                                         <rect key="frame" x="0.0" y="0.0" width="440" height="50"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zfY-Ep-V4b">
@@ -250,8 +265,8 @@
                         <constraints>
                             <constraint firstItem="1dz-uD-h6i" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5jR-qS-FBl"/>
                             <constraint firstItem="WzB-LD-xYY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BEE-Ip-trJ"/>
-                            <constraint firstItem="WzB-LD-xYY" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="GGa-vd-I4K"/>
-                            <constraint firstItem="WzB-LD-xYY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="LMa-Sr-3de"/>
+                            <constraint firstItem="WzB-LD-xYY" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GGa-vd-I4K"/>
+                            <constraint firstItem="WzB-LD-xYY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="LMa-Sr-3de"/>
                             <constraint firstItem="1dz-uD-h6i" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="mSM-yP-Zos"/>
                             <constraint firstAttribute="bottom" secondItem="WzB-LD-xYY" secondAttribute="bottom" id="mnw-hV-S68"/>
                         </constraints>
@@ -260,10 +275,12 @@
                     <connections>
                         <outlet property="backgroundImageView" destination="WzB-LD-xYY" id="jeN-qv-qIF"/>
                         <outlet property="emailTextField" destination="b7h-et-BSt" id="duL-yl-BzE"/>
+                        <outlet property="emailView" destination="d16-Av-ZsY" id="c1G-Dg-RTe"/>
                         <outlet property="eyePassword" destination="iQA-x3-7xw" id="Z91-XM-RE4"/>
                         <outlet property="loginButton" destination="A4y-Aj-dAS" id="0SA-Zd-FRI"/>
                         <outlet property="loginPopoupView" destination="1dz-uD-h6i" id="5jI-MN-365"/>
                         <outlet property="passwordTextField" destination="ZWa-BD-zIg" id="djO-Ox-BC5"/>
+                        <outlet property="passwordView" destination="Uad-kK-OBY" id="fpA-p9-77H"/>
                         <outlet property="signupButton" destination="DQy-Cd-hi7" id="LUS-n9-qLY"/>
                     </connections>
                 </viewController>
@@ -280,61 +297,77 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LobbyBackground" translatesAutoresizingMaskIntoConstraints="NO" id="AHG-f7-AhQ">
-                                <rect key="frame" x="0.0" y="125" width="1366" height="899"/>
+                                <rect key="frame" x="0.0" y="114" width="1366" height="910"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Hbp-jh-SAx" customClass="LobbyAppBar" customModule="BlockGeminiTask" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="1366" height="125"/>
+                                <rect key="frame" x="0.0" y="24" width="1366" height="90"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="8GF-4Y-4Xg">
-                                        <rect key="frame" x="20" y="10" width="240" height="115"/>
+                                        <rect key="frame" x="20" y="22.5" width="160" height="45"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="240" id="15N-rh-QYJ"/>
+                                            <constraint firstAttribute="width" constant="160" id="15N-rh-QYJ"/>
                                         </constraints>
                                     </imageView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Qf8-cP-Mmd">
-                                        <rect key="frame" x="966" y="20" width="400" height="105"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHd-uk-pdb">
-                                                <rect key="frame" x="0.0" y="0.0" width="200" height="105"/>
-                                                <color key="backgroundColor" red="0.027450980392156862" green="0.086274509803921567" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
-                                                <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Register" image="person" catalog="system">
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="34"/>
-                                                </state>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-3j-oy7">
-                                                <rect key="frame" x="200" y="0.0" width="200" height="105"/>
-                                                <color key="backgroundColor" red="0.0" green="0.14465567476990795" blue="0.3529411764705882" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
-                                                <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
-                                                <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Login">
-                                                    <imageReference key="image" image="rectangle.portrait.and.arrow.right" catalog="system" symbolScale="large"/>
-                                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24" scale="default"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="onLoginPressed:" destination="2Ig-ck-2VD" eventType="touchUpInside" id="IuG-qK-6Ks"/>
-                                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="LQ9-T7-jcz"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.027450980392156862" green="0.086274509803921567" blue="0.11372549019607843" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SHd-uk-pdb">
+                                        <rect key="frame" x="966" y="0.0" width="200" height="90"/>
+                                        <color key="backgroundColor" red="0.027450980392156862" green="0.086274509803921567" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="400" id="FVz-Aw-Ey8"/>
+                                            <constraint firstAttribute="width" constant="200" id="iWt-CW-Fqa"/>
                                         </constraints>
-                                    </stackView>
+                                        <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Register" image="person" catalog="system">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="34"/>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="Register">
+                                            <fontDescription key="titleFontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bgF-3j-oy7">
+                                        <rect key="frame" x="1166" y="0.0" width="200" height="90"/>
+                                        <color key="backgroundColor" red="0.0" green="0.14465567476990795" blue="0.3529411764705882" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="81L-FG-rcr"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Axiforma-Bold" family="Axiforma" pointSize="20"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="titleEdgeInsets" minX="16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <imageReference key="image" image="rectangle.portrait.and.arrow.right" catalog="system" symbolScale="large"/>
+                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" configurationType="pointSize" pointSize="24" scale="default"/>
+                                        </state>
+                                        <buttonConfiguration key="configuration" style="plain" title="Login">
+                                            <fontDescription key="titleFontDescription" name="Axiforma-Regular" family="Axiforma" pointSize="20"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onLoginPressed:" destination="2Ig-ck-2VD" eventType="touchUpInside" id="IuG-qK-6Ks"/>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="LQ9-T7-jcz"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rectangle.portrait.and.arrow.right" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="q8g-9T-uAt">
+                                        <rect key="frame" x="1181" y="25" width="30" height="35"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="gcc-TW-YmJ">
+                                        <rect key="frame" x="966" y="26.5" width="30" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1137254902" green="0.1843137255" blue="0.43921568630000002" alpha="0.98923841059999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="Qf8-cP-Mmd" secondAttribute="bottom" id="0uk-u1-SAY"/>
-                                    <constraint firstItem="Qf8-cP-Mmd" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="top" constant="20" id="8v2-Ja-WC9"/>
-                                    <constraint firstAttribute="height" constant="125" id="bYh-IR-P0d"/>
-                                    <constraint firstItem="8GF-4Y-4Xg" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="top" constant="10" id="qD4-ls-XHE"/>
-                                    <constraint firstAttribute="trailing" secondItem="Qf8-cP-Mmd" secondAttribute="trailing" id="qDA-su-Sjc"/>
-                                    <constraint firstAttribute="bottom" secondItem="8GF-4Y-4Xg" secondAttribute="bottom" id="yEs-jN-UjS"/>
+                                    <constraint firstAttribute="trailing" secondItem="bgF-3j-oy7" secondAttribute="trailing" id="M6n-Ds-ABv"/>
+                                    <constraint firstAttribute="bottom" secondItem="bgF-3j-oy7" secondAttribute="bottom" id="VxV-w4-Wge"/>
+                                    <constraint firstItem="bgF-3j-oy7" firstAttribute="leading" secondItem="SHd-uk-pdb" secondAttribute="trailing" id="Y0O-bi-T8P"/>
+                                    <constraint firstAttribute="height" constant="90" id="bYh-IR-P0d"/>
+                                    <constraint firstItem="bgF-3j-oy7" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="top" id="bj8-gs-UVP"/>
+                                    <constraint firstItem="SHd-uk-pdb" firstAttribute="top" secondItem="Hbp-jh-SAx" secondAttribute="top" id="kFD-Z9-9LM"/>
+                                    <constraint firstItem="8GF-4Y-4Xg" firstAttribute="centerY" secondItem="Hbp-jh-SAx" secondAttribute="centerY" id="sWZ-fx-W40"/>
+                                    <constraint firstAttribute="bottom" secondItem="SHd-uk-pdb" secondAttribute="bottom" id="vZL-NR-yr4"/>
                                     <constraint firstItem="8GF-4Y-4Xg" firstAttribute="leading" secondItem="Hbp-jh-SAx" secondAttribute="leading" constant="20" id="zuz-c4-yL0"/>
                                 </constraints>
                             </view>
@@ -349,7 +382,7 @@
                             <constraint firstItem="AHG-f7-AhQ" firstAttribute="trailing" secondItem="Awg-7S-0v9" secondAttribute="trailing" id="qM9-NU-H5C"/>
                             <constraint firstItem="Hbp-jh-SAx" firstAttribute="leading" secondItem="Awg-7S-0v9" secondAttribute="leading" id="rfH-U1-ESF"/>
                             <constraint firstItem="Hbp-jh-SAx" firstAttribute="leading" secondItem="Awg-7S-0v9" secondAttribute="leading" id="tHl-6r-jd3"/>
-                            <constraint firstItem="Hbp-jh-SAx" firstAttribute="top" secondItem="0n5-Qt-FVH" secondAttribute="top" id="yf2-UF-BXY"/>
+                            <constraint firstItem="Hbp-jh-SAx" firstAttribute="top" secondItem="Awg-7S-0v9" secondAttribute="top" id="yf2-UF-BXY"/>
                         </constraints>
                     </view>
                     <connections>
@@ -365,7 +398,7 @@
     </scenes>
     <designables>
         <designable name="ZWa-BD-zIg">
-            <size key="intrinsicContentSize" width="68.5" height="14"/>
+            <size key="intrinsicContentSize" width="68.5" height="15.5"/>
         </designable>
         <designable name="b7h-et-BSt">
             <size key="intrinsicContentSize" width="40" height="15.5"/>
@@ -373,7 +406,7 @@
     </designables>
     <resources>
         <image name="Background" width="1437.5" height="896"/>
-        <image name="LobbyBackground" width="2875" height="1792"/>
+        <image name="LobbyBackground" width="3214" height="1722"/>
         <image name="Logo" width="175" height="45"/>
         <image name="eye icon" width="16" height="14"/>
         <image name="person" catalog="system" width="128" height="117"/>

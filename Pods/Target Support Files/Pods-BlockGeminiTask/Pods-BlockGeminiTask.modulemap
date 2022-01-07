@@ -1,4 +1,4 @@
-framework module Pods_BlockGeminiTask {
+module Pods_BlockGeminiTask {
   umbrella header "Pods-BlockGeminiTask-umbrella.h"
 
   export *

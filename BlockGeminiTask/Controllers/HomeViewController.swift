@@ -9,21 +9,30 @@ import UIKit
 import SkyFloatingLabelTextField
 
 class HomeViewController: UIViewController {
-
+    
     // MARK: - OUTLETS
     @IBOutlet weak var backgroundImageView: UIImageView!
     @IBOutlet weak var loginPopoupView: LoginPopupView!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var emailTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var emailView: UIView!
     @IBOutlet weak var passwordTextField: SkyFloatingLabelTextField!
+    @IBOutlet weak var passwordView: UIView!
     @IBOutlet weak var signupButton: UITextView!
- 
+    
     @IBOutlet weak var eyePassword: UIImageView!
     
     override var shouldAutorotate: Bool {return true}
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {return .landscapeLeft}
     override var preferredStatusBarStyle: UIStatusBarStyle {return .lightContent}
-
+    
+    var pass: String = ""
+    var isSecureTextEntry: Bool = true {
+        didSet(newValue) {
+            passwordTextField.text = newValue ? String(repeating: "*", count: pass.count) : pass
+            eyePassword.image = !newValue ? UIImage.init(systemName: "eye") : UIImage(named: "eye icon")
+        }
+    }
     
     // MARK: - VIEW LIFE CYCLE
     override func viewWillAppear(_ animated: Bool) {
@@ -34,9 +43,10 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        passwordTextField.delegate = self
         setupGestures()
     }
-
+    
     
     @IBAction func onLogin(_ sender: Any) {
         // TODO: check for user input
@@ -55,16 +65,18 @@ class HomeViewController: UIViewController {
     }
     
     @objc func togglePasswordVisibility(sender: Any) {
-        passwordTextField.isSecureTextEntry = !passwordTextField.isSecureTextEntry
-        
-        eyePassword.image = !passwordTextField.isSecureTextEntry ? UIImage.init(systemName: "eye") : UIImage(named: "eye icon")
+        //        passwordTextField.isSecureTextEntry = !passwordTextField.isSecureTextEntry
+        isSecureTextEntry = !isSecureTextEntry
     }
     
     private func configScreen() {
-
+        
         let value = UIInterfaceOrientation.landscapeLeft.rawValue
         UIDevice.current.setValue(value, forKey: "orientation")
         
+        emailView.layer.cornerRadius = 3
+        passwordView.layer.cornerRadius = 3
+        loginButton.layer.cornerRadius = 3
         backgroundImageView.addBlur(10)
         loginPopoupView.setup()
     }
@@ -92,5 +104,20 @@ class HomeViewController: UIViewController {
     
     
 }
+
+
+extension HomeViewController: UITextFieldDelegate {
+    
+    // replace the entered value in password field with another symbol
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        pass = pass + string
+        passwordTextField.text = passwordTextField.text! + "*"
+        return false
+    }
+}
+
+
+
+
 
 
